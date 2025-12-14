@@ -45,6 +45,29 @@ jobs:
         - name: running backend Tests
           working-directory: ./backend
           run: npm test
+
+
+
+
+    # frontend:
+    #   runs-on: ubuntu-latest
+    #     steps:
+    #       - name: taking from repo to ubuntu
+    #         uses: actions/checkout@v5
+
+    #       - name: setup node v3
+    #         uses: actions/setup-nodes@v3
+    #         with:
+    #           node-version: '18'
+
+    #       - name: npm install
+    #         working-directories: ./frontend
+    #         run: npm install
+
+    #       - name: npm test
+    #         workind-directories: ./frontend
+    #         run: npm test
+
   
   #  test:
   #    runs-on: ubuntu-latest
