@@ -9,7 +9,7 @@ jobs:
          runs-on: ubuntu-latest
 
          steps:
-          - name: deploy via ssh
+          - name: deploy via sshs
             uses: appleboy/ssh-action@v1
         
             with:
